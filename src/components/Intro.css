@@ -1,0 +1,30 @@
+.main-section {
+  margin-top: 260px;
+}
+.about-me {
+  width: 700px;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 550px;
+  object-fit: cover;
+}
+.photo-container {
+  padding-bottom: 3rem;
+}
+.background h3 {
+  padding-left: 25rem;
+}
+.background p {
+  padding-left: 25rem;
+  padding-right: 25rem;
+  line-height: 1.6;
+}

@@ -1,0 +1,38 @@
+.projects-intro {
+  width: 700px;
+  /* margin-left: 28rem; */
+  margin: auto;
+  padding-bottom: 5rem;
+  margin-top: 200px;
+}
+
+hr {
+  color: lightgray;
+  opacity: 0.2;
+  padding-bottom: 5rem;
+}
+
+.projects {
+  background-color: lightgray;
+  width: 750px;
+  height: 250px;
+  margin: auto;
+}
+
+.link {
+  font-family: "Newsreader", serif;
+  font-size: 18px;
+  margin-left: 29rem;
+}
+.link-about {
+  margin-left: 29rem;
+  margin-right: 29rem;
+  line-height: 1.6;
+  padding-bottom: 5rem;
+}
+#cfa {
+  background-image: url("../images/logo.jpg");
+}
+#cfa:hover {
+  background-color: black;
+}

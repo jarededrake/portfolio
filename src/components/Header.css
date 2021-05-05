@@ -1,0 +1,38 @@
+.site-logo {
+  position: absolute;
+  border: 5px solid black;
+  width: 50px;
+  height: 50px;
+  top: 60px;
+  left: 175px;
+}
+.text-logo {
+  position: absolute;
+  font-family: "Newsreader", serif;
+  top: 15px;
+  left: 15px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  padding-right: 15px;
+}
+.nav-text {
+  font-family: "Newsreader", serif;
+  font-size: 18px;
+}
+.nav {
+  position: absolute;
+  float: right;
+  right: 175px;
+  top: 60px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  border-bottom: black solid 2px;
+}
