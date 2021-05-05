@@ -13,7 +13,6 @@ hr {
 }
 
 .projects {
-  background-color: lightgray;
   width: 750px;
   height: 250px;
   margin: auto;
@@ -33,6 +32,13 @@ hr {
 #cfa {
   background-image: url("../images/logo.jpg");
 }
-#cfa:hover {
-  background-color: black;
+#casino-dapp img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+#exercise-app img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }

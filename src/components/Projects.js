@@ -1,4 +1,6 @@
 import React from "react";
+import photo1 from "../images/exercise-icon-1.jpg";
+import photo2 from "../images/dice-clipart-gamble-2.jpg";
 import "./Projects.css";
 
 const Projects = () => {
@@ -27,7 +29,9 @@ const Projects = () => {
         2021.
       </p>
       <hr />
-      <section className='projects'></section>
+      <div id='exercise-app' className='projects'>
+        <img src={photo1} alt='' />
+      </div>
       <p className='link'>
         Link:{" "}
         <a href='https://exercise-logging-app.netlify.app/'>
@@ -43,7 +47,9 @@ const Projects = () => {
         end it built with React and Bootstrap for styling.
       </p>
       <hr />
-      <section className='projects'></section>
+      <div id='casino-dapp' className='projects'>
+        <img src={photo2} alt='' />
+      </div>
       <p className='link'>
         Link: <a href='https://casino-dapp.herokuapp.com/'>Casino Dapp</a>
       </p>
