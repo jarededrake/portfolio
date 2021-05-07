@@ -17,9 +17,9 @@ const Header = () => {
             <li className='nav-text'>
               <Link to='/projects'>Projects</Link>
             </li>
-            {/* <li className='nav-text'>
-              <Link to='/contact'>Contact</Link>
-            </li> */}
+            <li className='nav-text'>
+              <a href='mailto:jarededrake@yahoo.com'>Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
