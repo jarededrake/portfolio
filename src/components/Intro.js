@@ -25,7 +25,7 @@ const Intro = () => {
           would be hard to find in their budget to afford a website.
         </p>
         <h3>Services:</h3>
-        <p>
+        <p className='services'>
           Some of the services I offer are front-end development, which can help
           you realize your dream on the browser so the world can see. I can also
           provide back-end development when you need a little more complexity in

@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <div className='outer-container'>
         <nav className='nav-container'>
-          <a className='site-logo transition-link' href='/home'>
+          <a id='site-logo' className='site-logo transition-link' href='/'>
             <span className='text-logo'>JD</span>
           </a>
           <ul className='nav'>

@@ -36,3 +36,6 @@ a {
 a:hover {
   border-bottom: black solid 2px;
 }
+#site-logo:hover {
+  border-bottom: black solid 5px;
+}

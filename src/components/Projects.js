@@ -9,7 +9,7 @@ const Projects = () => {
       <section className='projects-intro'>
         <h1>Here are some projects I am working on.</h1>
       </section>
-      <hr />
+      <hr className='hr' />
       <section id='cfa' className='projects'></section>
       <p className='link'>
         Link:{" "}
@@ -28,7 +28,7 @@ const Projects = () => {
         development and is looking to be in full production at the end of May
         2021.
       </p>
-      <hr />
+      <hr className='hr' />
       <div id='exercise-app' className='projects'>
         <img src={photo1} alt='' />
       </div>
@@ -46,7 +46,7 @@ const Projects = () => {
         using Node.js for the backend and MongoDB for data management. The front
         end it built with React and Bootstrap for styling.
       </p>
-      <hr />
+      <hr className='hr' />
       <div id='casino-dapp' className='projects'>
         <img src={photo2} alt='' />
       </div>
